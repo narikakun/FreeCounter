@@ -2,7 +2,7 @@ $(function () {
     _c(_getid());
     setInterval(() => {
         _c(_getid());
-    }, 2000);
+    }, 1000);
 });
 
 function _c (id) {

@@ -23,5 +23,5 @@ function _getid () {
     var arg  = new Object;
     url = location.search.substring(1).split('&');
     for(i=0; url[i]; i++) { var k = url[i].split('='); arg[k[0]] = k[1];}
-    return arg.id;
+    return decodeURIComponent(arg.id);
 }

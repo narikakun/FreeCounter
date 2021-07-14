@@ -1,0 +1,17 @@
+html {
+    text-align: center;
+}
+
+#count {
+    font-size: 5em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+#up {
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
